@@ -49,7 +49,7 @@ use Getopt::Long;
 use IO::Handle;
 
 my %cols = (# HDR => [Size, Scale, Description]
-	"time"		=>[8, -1, "Time"],
+	"time"		=>[17, -1, "Time"],
 	"hits"		=>[4, 1000, "ARC reads per second"],
 	"miss"		=>[4, 1000, "ARC misses per second"],
 	"read"		=>[4, 1000, "Total ARC accesses per second"],

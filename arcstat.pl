@@ -282,7 +282,7 @@ sub calculate {
 	if ($raw_output) {
 		$v{"time"} = strftime("%s", localtime);
 	} else {
-		$v{"time"} = strftime("%H:%M:%S", localtime);
+		$v{"time"} = strftime("%D %H:%M:%S", localtime);
 	}
 
 	$v{"hits"} = $d{"hits"}/$int;
